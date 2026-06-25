@@ -1,0 +1,5 @@
+valor_compra = float(input("digite o valor qualquer:") )
+if valor_compra > 100:
+    desc=valor_compra * 0.10
+    valor_final = valor_compra - desc
+    print(f" o valor final é: {valor_final}")
